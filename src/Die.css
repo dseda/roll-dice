@@ -1,5 +1,20 @@
 .die {
   font-size: 10rem;
-  margin: 20px;
+  margin: 100px 20px;
   color: mediumslateblue;
+}
+button {
+  display: block;
+  background-color: rgb(97, 81, 188);
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 15px;
+}
+button.clicked {
 }

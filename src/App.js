@@ -5,7 +5,7 @@ function App() {
   // let rand1 = Math.floor(Math.random() * 6 + 1);
   // let rand2 = Math.floor(Math.random() * 6 + 1);
   return (
-    <div>
+    <div className="App">
       <RollDice />
     </div>
   );

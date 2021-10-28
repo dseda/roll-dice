@@ -9,26 +9,31 @@ class RollDice extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      face1: this.roll(),
-      face2: this.roll(),
+      face1: this.props.face,
+      face2: this.props.face,
+      isClicked: false,
     };
-    // this.roll = this.roll.bind(this);
+    this.roll = this.roll.bind(this);
   }
 
-  roll() {
-    let num = Math.floor(Math.random() * 6);
-    console.log(num);
-    if (num) {
-      return this.props.faces[num];
-    } else {
-      return this.props.face;
+  roll(e) {
+    let num1 = Math.floor(Math.random() * 6);
+    let num2 = Math.floor(Math.random() * 6);
+    if (num1 && num2) {
+      this.setState({
+        face1: this.props.faces[num1],
+        face2: this.props.faces[num2],
+        isClicked: true,
+      });
     }
   }
+
   render() {
     return (
       <div>
         <Die face={this.state.face1} />
         <Die face={this.state.face2} />
+        <button onClick={this.roll}>Roll Dice</button>
       </div>
     );
   }
