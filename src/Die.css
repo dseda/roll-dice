@@ -3,18 +3,21 @@
   margin: 100px 20px;
   color: mediumslateblue;
 }
-button {
-  display: block;
-  background-color: rgb(97, 81, 188);
-  border: none;
-  color: white;
-  padding: 20px 60px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 20px auto;
-  cursor: pointer;
-  border-radius: 15px;
+.rolling {
+  animation-name: jiggle;
+  animation-duration: 1s;
 }
-button.clicked {
+@keyframes jiggle {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  30% {
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  60% {
+    transform: translate3d(25%, 0, 0) rotate3d(0, 0, 1, 5deg);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }

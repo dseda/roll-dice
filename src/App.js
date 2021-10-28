@@ -1,5 +1,6 @@
 import "./App.css";
-import Die from "./Die";
+import "./RollDice.css";
+import "./Die.css";
 import RollDice from "./RollDice";
 function App() {
   // let rand1 = Math.floor(Math.random() * 6 + 1);

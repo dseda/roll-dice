@@ -1,0 +1,19 @@
+.Dice {
+  width: 100%;
+}
+button {
+  display: block;
+  background-color: rgb(97, 81, 188);
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 15px;
+}
+button:active {
+  box-shadow: 3px 3px 3px rgb(56, 48, 101);
+}
