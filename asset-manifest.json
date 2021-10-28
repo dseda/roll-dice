@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/roll-dice/static/css/main.d862b995.chunk.css",
-    "main.js": "/roll-dice/static/js/main.e7fa9348.chunk.js",
-    "main.js.map": "/roll-dice/static/js/main.e7fa9348.chunk.js.map",
-    "runtime-main.js": "/roll-dice/static/js/runtime-main.c7c53bb7.js",
-    "runtime-main.js.map": "/roll-dice/static/js/runtime-main.c7c53bb7.js.map",
-    "static/js/2.57cc9342.chunk.js": "/roll-dice/static/js/2.57cc9342.chunk.js",
-    "static/js/2.57cc9342.chunk.js.map": "/roll-dice/static/js/2.57cc9342.chunk.js.map",
-    "static/js/3.305bd851.chunk.js": "/roll-dice/static/js/3.305bd851.chunk.js",
-    "static/js/3.305bd851.chunk.js.map": "/roll-dice/static/js/3.305bd851.chunk.js.map",
+    "main.js": "/roll-dice/static/js/main.e5680727.chunk.js",
+    "main.js.map": "/roll-dice/static/js/main.e5680727.chunk.js.map",
+    "runtime-main.js": "/roll-dice/static/js/runtime-main.53bd5557.js",
+    "runtime-main.js.map": "/roll-dice/static/js/runtime-main.53bd5557.js.map",
+    "static/js/2.0a5a6cc1.chunk.js": "/roll-dice/static/js/2.0a5a6cc1.chunk.js",
+    "static/js/2.0a5a6cc1.chunk.js.map": "/roll-dice/static/js/2.0a5a6cc1.chunk.js.map",
+    "static/js/3.2cfcba68.chunk.js": "/roll-dice/static/js/3.2cfcba68.chunk.js",
+    "static/js/3.2cfcba68.chunk.js.map": "/roll-dice/static/js/3.2cfcba68.chunk.js.map",
     "index.html": "/roll-dice/index.html",
     "static/css/main.d862b995.chunk.css.map": "/roll-dice/static/css/main.d862b995.chunk.css.map",
-    "static/js/2.57cc9342.chunk.js.LICENSE.txt": "/roll-dice/static/js/2.57cc9342.chunk.js.LICENSE.txt"
+    "static/js/2.0a5a6cc1.chunk.js.LICENSE.txt": "/roll-dice/static/js/2.0a5a6cc1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7c53bb7.js",
-    "static/js/2.57cc9342.chunk.js",
+    "static/js/runtime-main.53bd5557.js",
+    "static/js/2.0a5a6cc1.chunk.js",
     "static/css/main.d862b995.chunk.css",
-    "static/js/main.e7fa9348.chunk.js"
+    "static/js/main.e5680727.chunk.js"
   ]
 }
