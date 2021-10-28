@@ -1,12 +1,12 @@
 import "./App.css";
 import Die from "./Die";
+import RollDice from "./RollDice";
 function App() {
-  let rand1 = Math.floor(Math.random() * 6 + 1);
-  let rand2 = Math.floor(Math.random() * 6 + 1);
+  // let rand1 = Math.floor(Math.random() * 6 + 1);
+  // let rand2 = Math.floor(Math.random() * 6 + 1);
   return (
     <div>
-      <Die face={rand1} />
-      <Die face={rand2} />
+      <RollDice />
     </div>
   );
 }

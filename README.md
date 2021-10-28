@@ -2,6 +2,8 @@
 
 An exercise for React state and props
 
+[Try _Roll Dice App_](https://dseda.github.io/roll-dice/)
+
 ### Quick Note: How to Deploy React App to Github Pages
 
 After creating the app locally and pushing it to Github, the steps below can be followed;
